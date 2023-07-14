@@ -85,13 +85,13 @@ vim.keymap.set("o", "ac", "a}") -- [c]urly brace
 vim.keymap.set("o", "am", "aW") -- [m]assive word (= no shift needed)
 vim.keymap.set("o", "aq", 'a"') -- [q]uote
 vim.keymap.set("o", "az", "a'") -- [z]ingle quote
-vim.keymap.set("o", "at", "a>") -- [t]ag
+vim.keymap.set("o", "aa", "a>") -- [a]ngle bracket
 vim.keymap.set("o", "ir", "i]")
 vim.keymap.set("o", "ic", "i}")
 vim.keymap.set("o", "im", "iW")
 vim.keymap.set("o", "iq", 'i"')
 vim.keymap.set("o", "iz", "i'")
-vim.keymap.set("o", "it", "i>")
+vim.keymap.set("o", "ia", "i>")
 
 lvim.builtin.which_key.mappings["S"] = { '<cmd>lua require("spectre").open()<CR>', "Open Spectre" }
 lvim.builtin.which_key.mappings["sw"] = { '<cmd>lua require("spectre").open_visual({select_word=true})<CR>', "Search current word" }
