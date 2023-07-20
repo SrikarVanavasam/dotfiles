@@ -93,6 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # vi-mode settings
 export VI_MODE_SET_CURSOR=true
 bindkey -M viins 'jj' vi-cmd-mode
+bindkey -M viins 'jk' vi-cmd-mode
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
