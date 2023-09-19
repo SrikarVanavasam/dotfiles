@@ -121,4 +121,4 @@ bindkey -M viins 'jk' vi-cmd-mode
 
 
 # Environment Variables
-export PATH="/home/srikar/.local/bin/:$PATH"
+export PATH="$HOME/.local/bin/:$PATH"
