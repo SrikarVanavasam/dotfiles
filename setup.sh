@@ -15,5 +15,6 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./miniconda/bin/conda init fish
 rm Miniconda3-latest-Linux-x86_64.sh
 conda config --set changeps1 False
+omf install pure
 omf theme pure
 omf install https://github.com/decors/fish-colored-man
