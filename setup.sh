@@ -12,3 +12,4 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda
 ./miniconda/bin/conda init fish
 rm Miniconda3-latest-Linux-x86_64.sh
+conda config --set changeps1 False
