@@ -3,7 +3,7 @@ sudo apt-get install fish
 chsh -s $(which fish)
 # Run rest as script
 mkdir -p ~/.local/bin
-wget -P ~/.local/bin/ https://github.com/neovim/neovim/releases/download/v0.9.1/nvim.appimage
+wget -P ~/.local/bin/ https://github.com/neovim/neovim/releases/download/v0.10.0/nvim.appimage
 chmod u+x ~/.local/bin/nvim.appimage
 ln -s ~/.local/bin/nvim.appimage ~/.local/bin/nvim
 git clone https://github.com/SrikarVanavasam/LazyVim.config.git ~/.config/nvim
