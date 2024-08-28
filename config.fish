@@ -51,6 +51,7 @@ fish_add_path ~/.local/bin
 alias spr1="ssh -Y srikarv2@192.17.103.4"
 alias spr2="ssh -Y srikarv2@192.17.103.211"
 alias spr3="ssh -Y srikarv2@192.17.100.21"
+alias spr4="ssh -Y srikarv2@192.17.100.155"
 alias bf3="ssh -Y srikarv2@192.17.100.19"
 alias janux10="ssh -Y srikarv2@192.17.100.134"
 alias epyca0="ssh -Y srikarv2@janux-a0.csl.illinois.edu"
