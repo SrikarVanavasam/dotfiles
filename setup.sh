@@ -2,6 +2,8 @@
 sudo apt-get install fish
 chsh -s $(which fish)
 # Run rest as script
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+curl -L https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/main/.tmux.conf > .tmux.conf
 mkdir -p ~/.local/bin
 wget -P ~/.local/bin/ https://github.com/neovim/neovim/releases/download/v0.10.1/nvim.appimage
 chmod u+x ~/.local/bin/nvim.appimage
