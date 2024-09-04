@@ -19,5 +19,6 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./miniconda/bin/conda init fish
 rm Miniconda3-latest-Linux-x86_64.sh
 conda config --set changeps1 False
+mkdir -p .config/fish/themes
 curl -L https://raw.githubusercontent.com/catppuccin/fish/main/themes/Catppuccin%20Mocha.theme > .config/fish/themes/'Catppuccin Mocha.theme'
 fish_config theme save "Catppuccin Mocha"
