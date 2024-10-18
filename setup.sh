@@ -13,7 +13,6 @@ ln -s ~/.local/bin/nvim.appimage ~/.local/bin/nvim
 git clone git@github.com:SrikarVanavasam/LazyVim.config.git ~/.config/nvim
 # git clone https://github.com/SrikarVanavasam/LazyVim.config.git ~/.config/nvim
 curl -L https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/main/config.fish > .config/fish/config.fish
-conda config --set changeps1 False
 mkdir -p .config/fish/themes
 wget -P .config/fish/themes/ https://raw.githubusercontent.com/catppuccin/fish/main/themes/Catppuccin%20Mocha.theme
 fish_config theme save "Catppuccin Mocha"
@@ -22,3 +21,4 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda
 ./miniconda/bin/conda init fish
 rm Miniconda3-latest-Linux-x86_64.sh
+conda config --set changeps1 False
