@@ -16,6 +16,10 @@ curl -L https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/main/config.f
 mkdir -p .config/fish/themes
 wget -P .config/fish/themes/ https://raw.githubusercontent.com/catppuccin/fish/main/themes/Catppuccin%20Mocha.theme
 fish_config theme save "Catppuccin Mocha"
+sudo snap install zellij --classic
+wget -P .config/zellij/ https://raw.githubusercontent.com/catppuccin/zellij/refs/heads/main/catppuccin.kdl
+curl -L https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/main/config.kdl > .config/zellij/config.kdl
+#Conda stuff
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda
