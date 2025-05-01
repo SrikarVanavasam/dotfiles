@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 # vi bindings
-fish_vi_key_bindings
+fish_hybrid_key_bindings
 bind --mode insert --sets-mode default jk repaint
 bind --mode insert --sets-mode default jj repaint
 bind -M insert \ce accept-autosuggestion
