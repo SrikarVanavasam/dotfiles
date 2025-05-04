@@ -11,7 +11,6 @@ wget -P ~/.local/bin/ https://github.com/neovim/neovim/releases/download/v0.10.3
 chmod u+x ~/.local/bin/nvim.appimage
 ln -s ~/.local/bin/nvim.appimage ~/.local/bin/nvim
 git clone git@github.com:SrikarVanavasam/LazyVim.config.git ~/.config/nvim
-# git clone https://github.com/SrikarVanavasam/LazyVim.config.git ~/.config/nvim
 curl -L https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/main/config.fish > .config/fish/config.fish
 mkdir -p .config/fish/themes
 wget -P .config/fish/themes/ https://raw.githubusercontent.com/catppuccin/fish/main/themes/Catppuccin%20Mocha.theme
