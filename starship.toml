@@ -34,7 +34,7 @@ mantle = "#181825"
 crust = "#11111b"
 
 [username]
-style_user = "bold mauve"
+style_user = "bold pink"
 style_root = "bold red"
 format = "[$user]($style) "
 
@@ -69,7 +69,7 @@ symbol = " "
 symbol = " "
 
 [directory]
-style = "bold blue"
+style = "bold lavender"
 read_only = " 󰌾"
 read_only_style = "bold peach"
 truncation_length = 3
@@ -126,7 +126,7 @@ symbol = " "
 
 [hostname]
 ssh_symbol = " "
-style = "bold teal"
+style = "bold sky"
 
 [java]
 symbol = " "
