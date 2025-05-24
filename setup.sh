@@ -15,6 +15,9 @@ curl -L https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/main/config.f
 mkdir -p .config/fish/themes
 wget -P .config/fish/themes/ https://raw.githubusercontent.com/catppuccin/fish/main/themes/Catppuccin%20Mocha.theme
 fish_config theme save "Catppuccin Mocha"
+curl -sS https://starship.rs/install.sh | sh -s -- --yes
+echo 'starship init fish | source' >> ~/.config/fish/config.fish
+wget -P .config/ https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/refs/heads/main/starship.toml
 sudo snap install zellij --classic
 wget -P .config/zellij/ https://raw.githubusercontent.com/catppuccin/zellij/refs/heads/main/catppuccin.kdl
 curl -L https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/main/config.kdl > .config/zellij/config.kdl
