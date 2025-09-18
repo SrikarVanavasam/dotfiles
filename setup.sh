@@ -7,7 +7,7 @@ chsh -s $(which fish)
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 curl -L https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/main/.tmux.conf > .tmux.conf
 mkdir -p ~/.local/bin
-wget -P ~/.local/bin/ https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-linux-x86_64.appimage
+wget -P ~/.local/bin/ https://github.com/neovim/neovim/releases/download/v0.11.4/nvim-linux-x86_64.appimage
 chmod u+x ~/.local/bin/nvim-linux-x86_64.appimage
 ln -s ~/.local/bin/nvim-linux-x86_64.appimage ~/.local/bin/nvim
 git clone git@github.com:SrikarVanavasam/LazyVim.config.git ~/.config/nvim
