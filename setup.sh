@@ -21,6 +21,9 @@ wget -P .config/ https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/refs
 sudo snap install zellij --classic
 wget -P .config/zellij/ https://raw.githubusercontent.com/catppuccin/zellij/refs/heads/main/catppuccin.kdl
 curl -L https://raw.githubusercontent.com/SrikarVanavasam/dotfiles/main/config.kdl > .config/zellij/config.kdl
+curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+# Need to login to atuin
+
 #Conda stuff
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod +x Miniconda3-latest-Linux-x86_64.sh
